@@ -217,7 +217,7 @@ $clientes = ($read->getResult() ? $read->getResult() : []);
 </section>-->
 
 <section class="clients cid-raBhy5nKVj" id="clientes">
-    <div class="container">
+    <!--<div class="container">
         <div class="media-container-row">
             <div class="col-12 align-center">
                 <h2 class="mbr-section-title pb-3 mbr-fonts-style display-2">Nossos Clientes</h2>
@@ -226,7 +226,7 @@ $clientes = ($read->getResult() ? $read->getResult() : []);
                 </h3>
             </div>
         </div>
-    </div>
+    </div>-->
 
     <div class="container">
     </div>
@@ -254,7 +254,7 @@ $clientes = ($read->getResult() ? $read->getResult() : []);
     </div>
 </section>-->
 
-<section class="mbr-section form4 cid-raBhtPqFRD" id="contato">
+<section class="mbr-section form4 cid-raBhtPqFRD border-top" id="contato">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -321,10 +321,11 @@ $clientes = ($read->getResult() ? $read->getResult() : []);
             <div class="media-container-row mbr-white">
                 <div class="col-md-6 copyright">
                     <p class="mbr-text mbr-fonts-style display-7">
+                        Rua Imigrante Meller, 437, Ed. João Batista 1455, Criciúma - SC
+                    </p>
+                    <p class="mbr-text mbr-fonts-style display-7">
                         © Copyright <?= date('Y') ?> AG3 - Todos os direitos Reservados
                     </p>
-                    <p class="mbr-text mbr-fonts-style display-7">Rua Imigrante Meller, 437, Ed. João Batista 1455,
-                        Criciúma - SC</p>
                 </div>
                 <div class="col-md-6" style="padding-left: 50px;">
                     <div class="social-list align-right">

@@ -4,15 +4,9 @@ $(function () {
         let equipe = dbLocal.exeRead("equipe");
         let template = dbLocal.exeRead("__template", 1);
 
-        let voce1 = {
+        let voce = {
             'nome': 'Vaga em aberto',
-            'atuacao': 'Desenvolvedor React',
-            'imagem': HOME + VENDOR + "site-ag3/public/assets/img/user.png",
-            'descricao': '',
-        };
-        let voce2 = {
-            'nome': 'Vaga em aberto',
-            'atuacao': 'Desenvolvedor Moodle',
+            'atuacao': 'Front-end Developer',
             'imagem': HOME + VENDOR + "site-ag3/public/assets/img/user.png",
             'descricao': '',
         };
@@ -22,7 +16,7 @@ $(function () {
                 e.imagem = e.imagem[0].url;
                 $("#equipe").append(Mustache.render(d[1].time, e));
             });
-            $("#equipe").append(Mustache.render(d[1].time, voce1) + Mustache.render(d[1].time, voce2));
+            $("#equipe").append(Mustache.render(d[1].time, voce));
 
             if(!navigator.onLine) {
                 $("img").each(function (i, img) {

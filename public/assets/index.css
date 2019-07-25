@@ -15887,10 +15887,9 @@ html, body {
 }
 
 .cid-raBhy5nKVj {
-    padding-top: 90px;
-    padding-bottom: 90px;
-    background-color: #efefef;
-    background: linear-gradient(#efefef, #f9f295)
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: linear-gradient(#ffffff, #f9f9f9)
 }
 
 .cid-raBhy5nKVj .carousel-control {
@@ -16092,7 +16091,7 @@ html, body {
 .cid-raBhBYTHhc {
     padding-top: 90px;
     padding-bottom: 90px;
-    background-color: #f9f295
+    background-color: #f9f9f9
 }
 
 .cid-raBhBYTHhc .mbr-section-subtitle {
@@ -16447,7 +16446,7 @@ html, body {
 
 #whatsapp-btn-float {
     position: fixed;
-    left: 15px;
+    right: 15px;
     bottom: 15px;
     height: 60px;
     width: 60px;
@@ -16532,4 +16531,12 @@ img {
     color: #ffffff !important;
     background-color: #fe9d04 !important;
     border-color: #fe9d04 !important
+}
+
+.mbr-testimonial > .panel-item {
+    transition: ease all .3s;
+}
+
+.mbr-testimonial > .panel-item:hover {
+    transform: scale(1.05);
 }

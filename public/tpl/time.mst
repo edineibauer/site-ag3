@@ -1,5 +1,5 @@
 <div class="mbr-testimonial p-3 align-center col-12 col-md-6 col-lg-4">
-    <div class="panel-item p-3">
+    <div class="panel-item p-3 z-depth-2">
         <div class="card-block">
             <div class="testimonial-photo">
                 <img src="{{imagem}}" alt="imagem do {{atuacao}} {{nome}}" title="{{atuacao}} {{nome}}">
