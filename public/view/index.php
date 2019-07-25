@@ -39,8 +39,8 @@ $clientes = ($read->getResult() ? $read->getResult() : []);
         <div class="media-container-row">
 
             <div class="p-3 col-12 col-lg-6 relative">
-                <img src="<?=HOME?>public/assets/img/pwa-ballon.png" class="ballon" />
-                <img src="<?=HOME?>public/assets/img/pwa-header.png" />
+                <img src="<?=HOME . VENDOR ?>site-ag3/public/assets/img/pwa-ballon.png" class="ballon" />
+                <img src="<?=HOME . VENDOR ?>site-ag3/public/assets/img/pwa-header.png" />
             </div>
 
             <div class="p-3 col-12 col-lg-6">
