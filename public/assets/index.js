@@ -7,13 +7,13 @@ $(function () {
         let voce1 = {
             'nome': 'Vaga em aberto',
             'atuacao': 'Desenvolvedor React',
-            'imagem': HOME + 'public/assets/img/user.png',
+            'imagem': HOME + VENDOR + "site-ag3/public/assets/img/user.png",
             'descricao': '',
         };
         let voce2 = {
             'nome': 'Vaga em aberto',
             'atuacao': 'Desenvolvedor Moodle',
-            'imagem': HOME + 'public/assets/img/user.png',
+            'imagem': HOME + VENDOR + "site-ag3/public/assets/img/user.png",
             'descricao': '',
         };
 
