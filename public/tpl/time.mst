@@ -1,0 +1,18 @@
+<div class="mbr-testimonial p-3 align-center col-12 col-md-6 col-lg-4">
+    <div class="panel-item p-3">
+        <div class="card-block">
+            <div class="testimonial-photo">
+                <img src="{{imagem}}" alt="imagem do {{atuacao}} {{nome}}" title="{{atuacao}} {{nome}}">
+            </div>
+            <p class="mbr-text mbr-fonts-style display-7">
+                {{descricao}}
+            </p>
+        </div>
+        <div class="card-footer">
+            <div class="mbr-author-name mbr-bold mbr-fonts-style display-7">{{nome}}</div>
+            <small class="mbr-author-desc mbr-italic mbr-light mbr-fonts-style display-7">
+                {{atuacao}}
+            </small>
+        </div>
+    </div>
+</div>

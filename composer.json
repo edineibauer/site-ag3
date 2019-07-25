@@ -1,0 +1,16 @@
+{
+  "name": "ueb/site-ag3",
+  "description": "Projeto template AG3 Tecnologia.",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Edinei J. Bauer",
+      "email": "edineibauer@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "ueb/dashboard": "^1.0.75"
+  }
+}
