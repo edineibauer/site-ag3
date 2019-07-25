@@ -14,7 +14,7 @@ $clientes = ($read->getResult() ? $read->getResult() : []);
 
 ?>
 
-<section class="header10 cid-raBgLdchSJ mbr-fullscreen mbr-parallax-background angle" id="header10-0">
+<section class="header10 cid-raBgLdchSJ mbr-fullscreen mbr-parallax-background angle" id="header10-0" style="background-image: url('<?=HOME . VENDOR?>site-ag3/public/assets/images/background2.jpg')">
     <div class="container" style="z-index: 3">
         <div class="media-container-column mbr-white col-lg-8 col-md-10 ml-auto">
             <h1 class="mbr-section-title align-right mbr-bold pb-3 mbr-fonts-style display-1">DESENVOLVIMENTO DE SISTEMAS E SITES</h1>
@@ -117,7 +117,7 @@ $clientes = ($read->getResult() ? $read->getResult() : []);
     </div>
 </section>
 
-<section class="mbr-section content5 cid-raBzwObT2o mbr-parallax-background" id="content5-9">
+<section class="mbr-section content5 cid-raBzwObT2o mbr-parallax-background" id="content5-9" style="background-image: url('<?=HOME . VENDOR?>site-ag3/public/assets/images/mbr-1920x1276.jpg')">
     <div class="container">
         <div class="media-container-row">
             <div class="title col-12 col-md-8">
@@ -307,18 +307,17 @@ $clientes = ($read->getResult() ? $read->getResult() : []);
             <div class="col-md-9">
                 <p class="mbr-text align-right links mbr-fonts-style display-7" style="float: right">
 <!--                    <a href="#" style="padding:5px 10px;float:left;display: block; color: #555555">SOBRE</a>-->
-                    <a href="#clientes"
-                       style="padding:5px 10px;float:left;display: block; color: #555555">PORTIFÓLIO</a>
+<!--                    <a href="#clientes" style="padding:5px 10px;float:left;display: block; color: #555555">PORTIFÓLIO</a>-->
 <!--                    <a href="#" style="padding:5px 10px;float:left;display: block; color: #555555">FAÇA PARTE</a>-->
                 </p>
             </div>
         </div>
         <div class="footer-lower">
-            <div class="media-container-row">
+            <!--<div class="media-container-row">
                 <div class="col-md-12">
                     <hr>
                 </div>
-            </div>
+            </div>-->
             <div class="media-container-row mbr-white">
                 <div class="col-md-6 copyright">
                     <p class="mbr-text mbr-fonts-style display-7">
@@ -359,16 +358,14 @@ $clientes = ($read->getResult() ? $read->getResult() : []);
     </svg>
 </a>
 
-<div id="myModal" class="modal">
-    <!-- Modal content -->
+<!--<div id="myModal" class="modal">
     <div class="modal-content">
         <div class="modal-header">
             <h2 style="padding: 5px 0 0;">Boas Festas!</h2>
             <span class="close">&times;</span>
         </div>
         <div class="modal-body">
-            <img src="<?= HOME ?>uploads/site/natal.jpeg" style="width:100%;float:left" alt="Feliz Natal"/>
+            <img src="<?/*= HOME */?>uploads/site/natal.jpeg" style="width:100%;float:left" alt="Feliz Natal"/>
         </div>
     </div>
-
-</div>
+</div>-->
