@@ -22,8 +22,7 @@ $(function () {
                 e.imagem = e.imagem[0].url;
                 $("#equipe").append(Mustache.render(d[1].time, e));
             });
-            $("#equipe").append(Mustache.render(d[1].time, voce1));
-            $("#equipe").append(Mustache.render(d[1].time, voce2));
+            $("#equipe").append(Mustache.render(d[1].time, voce1) + Mustache.render(d[1].time, voce2));
 
             if(!navigator.onLine) {
                 $("img").each(function (i, img) {
