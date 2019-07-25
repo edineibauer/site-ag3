@@ -28,7 +28,7 @@ $(function () {
                 $("img").each(function (i, img) {
                     let pat = new RegExp("\/uploads\/", "i");
                     if(pat.test($(img).attr("src"))) {
-                        $(img).attr("src", HOME + "public/assets/img/user.png");
+                        $(img).attr("src", HOME + VENDOR + "site-ag3/public/assets/img/user.png");
                     };
                 })
             }
