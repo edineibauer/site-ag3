@@ -12348,8 +12348,8 @@ template {
 @charset "UTF-8";
 @font-face {
     font-family: "socicon";
-    src: url(../vendor/ueb/site-ag3/public/assets/socicon/fonts/socicon.eot);
-    src: url("../vendor/ueb/site-ag3/public/assets/socicon/fonts/socicon.eot?#iefix") format("embedded-opentype"), url(../vendor/ueb/site-ag3/public/assets/socicon/fonts/socicon.woff) format("woff"), url(../vendor/ueb/site-ag3/public/assets/socicon/fonts/socicon.ttf) format("truetype"), url("../vendor/ueb/site-ag3/public/assets/socicon/fonts/socicon.svg#socicon") format("svg");
+    src: url(public/assets/socicon/fonts/socicon.eot);
+    src: url("public/assets/socicon/fonts/socicon.eot?#iefix") format("embedded-opentype"), url(public/assets/socicon/fonts/socicon.woff) format("woff"), url(public/assets/socicon/fonts/socicon.ttf) format("truetype"), url("public/assets/socicon/fonts/socicon.svg#socicon") format("svg");
     font-weight: 400;
     font-style: normal
 }
@@ -15695,7 +15695,7 @@ html, body {
 }
 
 .cid-raBgLdchSJ {
-    background-image: url(../vendor/ueb/site-ag3/public/assets/images/background2.jpg)
+    background-image: url(assets/images/background2.jpg)
 }
 
 .cid-raBgLdchSJ .mbr-section-subtitle {
@@ -15800,7 +15800,7 @@ html, body {
 .cid-raBzwObT2o {
     padding-top: 60px;
     padding-bottom: 60px;
-    background-image: url(../vendor/ueb/site-ag3/public/assets/images/mbr-1920x1276.jpg)
+    background-image: url(assets/images/mbr-1920x1276.jpg)
 }
 
 .cid-raBhh36wun {
