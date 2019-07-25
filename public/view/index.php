@@ -300,7 +300,7 @@ $clientes = ($read->getResult() ? $read->getResult() : []);
             <div class="col-md-3">
                 <div class="media-wrap">
 
-                    <img src="<?= HOME ?>public/assets/images/favicon-195-192x192.png" alt="Mobirise" title="">
+                    <img src="<?= HOME ?>public/assets/images/favicon-195-192x192.png" alt="<?=SITENAME?>" title="<?=SITENAME?>>
 
                 </div>
             </div>
