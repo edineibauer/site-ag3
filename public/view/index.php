@@ -330,17 +330,17 @@ $clientes = ($read->getResult() ? $read->getResult() : []);
                     <div class="social-list align-right">
                         <div class="soc-item">
                             <a href="https://www.facebook.com/ag3tecnologia/" target="_blank">
-                                <span class="socicon-facebook socicon mbr-iconfont mbr-iconfont-social"></span>
+                                <img src="<?=HOME . VENDOR?>site-ag3/public/assets/img/facebook.svg" width="25" height="25" style="width: 25px" alt="facebook" title="conta do facebook" />
                             </a>
                         </div>
                         <div class="soc-item">
                             <a href="https://www.youtube.com/channel/UCqI07E_oT8wwFcD2bsbNzbQ" target="_blank">
-                                <span class="socicon-youtube socicon mbr-iconfont mbr-iconfont-social"></span>
+                                <img src="<?=HOME . VENDOR?>site-ag3/public/assets/img/youtube.svg" width="25" height="25" style="width: 25px" alt="youtube" title="conta do youtube" />
                             </a>
                         </div>
                         <div class="soc-item">
                             <a href="https://www.instagram.com/ag3tecnologia/" target="_blank">
-                                <span class="socicon-instagram socicon mbr-iconfont mbr-iconfont-social"></span>
+                                <img src="<?=HOME . VENDOR?>site-ag3/public/assets/img/instagram.svg" width="25" height="25" style="width: 25px" alt="instagram" title="conta do instagram" />
                             </a>
                         </div>
                     </div>
