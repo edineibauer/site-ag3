@@ -38,7 +38,7 @@ $(function () {
         /**
          * Animação
          * */
-        $(window).scroll(function (event) {
+        $(window).scroll(function () {
             var st = $(this).scrollTop();
             if (st > 400)
                 $(".ballon").css("transform", "translate(180px, 150px)");
