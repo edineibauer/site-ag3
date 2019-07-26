@@ -214,18 +214,19 @@ $clientes = ($read->getResult() ? $read->getResult() : []);
 </section>-->
 
 <section class="clients cid-raBhy5nKVj" id="clientes">
-    <!--<div class="container">
+    <div class="container">
         <div class="media-container-row">
             <div class="col-12 align-center">
-                <h2 class="mbr-section-title pb-3 mbr-fonts-style display-2">Nossos Clientes</h2>
+                <h2 class="mbr-section-title pb-3 mbr-fonts-style display-2">Portifólio</h2>
                 <h3 class="mbr-section-subtitle mbr-light mbr-fonts-style display-5">
-                    portifólio em manutenção
+                    Alguns projetos que a AG3 já desenvolveu
                 </h3>
             </div>
         </div>
-    </div>-->
+    </div>
 
-    <div class="container">
+    <div class="col-12" id="portifolio">
+        <div id="elastic_grid"></div>
     </div>
 </section>
 
@@ -355,6 +356,14 @@ $clientes = ($read->getResult() ? $read->getResult() : []);
               fill-rule="evenodd"></path>
     </svg>
 </a>
+
+<link rel="stylesheet" type="text/css" href="<?=HOME . VENDOR ?>site-ag3/public/assets/elastic_grid.min.css" />
+
+<script src="<?=HOME . VENDOR ?>site-ag3/public/assets/modernizr.custom.js"></script>
+<script src="<?=HOME . VENDOR ?>site-ag3/public/assets/classie.js"></script>
+<script type="text/javascript" src="<?=HOME . VENDOR ?>site-ag3/public/assets/jquery.elastislide.js"></script>
+<script type="text/javascript" src="<?=HOME . VENDOR ?>site-ag3/public/assets/jquery.hoverdir.js"></script>
+<script type="text/javascript" src="<?=HOME . VENDOR ?>site-ag3/public/assets/elastic_grid.js"></script>
 
 <!--<div id="myModal" class="modal">
     <div class="modal-content">

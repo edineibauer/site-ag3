@@ -1,0 +1,12 @@
+<div class="mbr-testimonial p-3 align-center col-12 col-md-6 col-lg-4">
+    <div class="panel-item p-3 z-depth-2">
+        <div class="card-block">
+            <div class="testimonial-photo">
+                <img src="{{imagem}}" alt="imagem do {{nome_do_projeto}}" title="{{nome_do_projeto}}">
+            </div>
+        </div>
+        <div class="card-footer">
+            <div class="mbr-author-name mbr-bold mbr-fonts-style display-7">{{nome_do_projeto}}</div>
+        </div>
+    </div>
+</div>

@@ -16531,3 +16531,21 @@ img {
 .mbr-testimonial > .panel-item:hover {
     transform: scale(1.05);
 }
+
+#elastic_grid {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.og-details a.link-button {
+    border-radius: 5px!important;
+    padding: 10px 25px!important;
+}
+
+.og-close {
+    z-index: 2!important;
+}
+
+.og-close:hover::before, .og-close:hover::after {
+    background: #dddddd!important;
+}

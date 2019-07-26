@@ -1,5 +1,6 @@
 $(function () {
     let equipe = dbLocal.exeRead("equipe");
+    let portifolio = dbLocal.exeRead("portifolio");
     let template = dbLocal.exeRead("__template", 1);
 
     let voce = {
@@ -9,6 +10,9 @@ $(function () {
         'descricao': '',
     };
 
+    /**
+     * Equipe
+     * */
     Promise.all([equipe, template]).then(d => {
         $.each(d[0], function (i, e) {
             if (typeof e.imagem !== null)
@@ -21,12 +25,57 @@ $(function () {
         if (!navigator.onLine) {
             $("img").each(function (i, img) {
                 let pat = new RegExp("\/uploads\/", "i");
-                if (pat.test($(img).attr("src"))) {
+                if (pat.test($(img).attr("src")))
                     $(img).attr("src", HOME + VENDOR + "site-ag3/public/assets/img/user.png");
-                }
-                ;
             })
         }
+    });
+
+    /**
+     * Portifólio
+     * */
+    Promise.all([portifolio, template]).then(d => {
+        var itens = [];
+        $.each(d[0], function (i, e) {
+            let thumb = [];
+            let imagem = [];
+            let imagemName = [];
+            if (typeof e.imagens !== null) {
+                $.each(e.imagens, function(i, img) {
+                    thumb.push(img.urls['300']);
+                    imagem.push(img.urls['medium']);
+                    imagemName.push('');
+                });
+            } else {
+                thumb.push(HOME + "assetsPublic/img/img.png");
+                imagem.push(HOME + "assetsPublic/img/img.png");
+                imagemName.push('');
+            }
+
+            itens.push({
+                'title': e.nome_do_projeto,
+                'description': e.depoimento,
+                'thumbnail': thumb,
+                'large': imagem,
+                'img_title': imagemName,
+                'button_list':
+                    [
+                        {'title': 'Site', 'url': e.link_do_site, 'new_window': true}
+                    ],
+                'tags': [e.tag]
+            });
+        });
+
+        $("#elastic_grid").elastic_grid({
+            'showAllText': 'All',
+            'filterEffect': 'moveup', // moveup, scaleup, fallperspective, fly, flip, helix , popup
+            'hoverDirection': true,
+            'hoverDelay': 0,
+            'hoverInverse': false,
+            'expandingSpeed': 500,
+            'expandingHeight': 400,
+            'items': itens
+        });
     });
 
     /**
