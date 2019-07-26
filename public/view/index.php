@@ -14,7 +14,7 @@ $clientes = ($read->getResult() ? $read->getResult() : []);
 
 ?>
 
-<section class="header10 cid-raBgLdchSJ mbr-fullscreen mbr-parallax-background angle" id="header10-0" style="background-image: url('<?=HOME . VENDOR?>site-ag3/public/assets/images/background2.jpg')">
+<section class="header10 cid-raBgLdchSJ mbr-fullscreen mbr-parallax-background angle" id="header10-0" style="background-image: url('<?=HOME . VENDOR?>site-ag3/public/assets/img/header.webp')">
     <div class="container" style="z-index: 3">
         <div class="media-container-column mbr-white col-lg-8 col-md-10 ml-auto">
             <h1 class="mbr-section-title align-right mbr-bold pb-3 mbr-fonts-style display-1">DESENVOLVIMENTO DE SISTEMAS E SITES</h1>
@@ -23,13 +23,10 @@ $clientes = ($read->getResult() ? $read->getResult() : []);
             </h3>
             <p class="mbr-text align-right pb-3 mbr-fonts-style display-5">painéis administrativos com relatórios,
                 leads, automação de processos, gerenciamento de notificações, e o que mais necessitar!</p>
-            <div class="mbr-section-btn align-right">
-                <a href="#contato" class="btn btn-md btn-primary right display-4">ENTRAR EM CONTATO</a>
+            <div class="align-right">
+                <a href="#contato" class="btn btn-md btn-primary right display-4 radius">ENTRAR EM CONTATO</a>
             </div>
         </div>
-    </div>
-
-    <div class="header-cover">
     </div>
 </section>
 
@@ -65,7 +62,7 @@ $clientes = ($read->getResult() ? $read->getResult() : []);
     </div>
 </section>
 
-<section class="features1 bg-white" id="features1-3" style="padding-bottom: 60px">
+<section class="features1 bg-light" id="features1-3" style="padding-bottom: 60px">
 
     <div class="container">
         <div class="media-container-row">
@@ -117,7 +114,7 @@ $clientes = ($read->getResult() ? $read->getResult() : []);
     </div>
 </section>
 
-<section class="mbr-section content5 cid-raBzwObT2o mbr-parallax-background" id="content5-9" style="background-image: url('<?=HOME . VENDOR?>site-ag3/public/assets/images/mbr-1920x1276.jpg')">
+<section class="mbr-section content5 cid-raBzwObT2o mbr-parallax-background" id="content5-9" style="background-image: url('<?=HOME . VENDOR?>site-ag3/public/assets/img/coffe.webp')">
     <div class="container">
         <div class="media-container-row">
             <div class="title col-12 col-md-8">

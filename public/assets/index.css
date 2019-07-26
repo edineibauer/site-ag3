@@ -15701,7 +15701,7 @@ html, body {
 .cid-raBh6EkhNv {
     padding-top: 90px;
     padding-bottom: 90px;
-    background: linear-gradient(#cccccc,#ffffff)!important;
+    background: linear-gradient(#fff, #f8f9fa)!important;
 }
 
 .cid-raBh6EkhNv .mbr-text {
@@ -16462,15 +16462,6 @@ html, body {
     width: 60px;
     box-shadow: 0 3px 9px #00000038;
     transition: all ease 0.3s
-}
-
-.header-cover {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: rgba(0, 0, 0, .2)
 }
 
 .angle, .overlay {

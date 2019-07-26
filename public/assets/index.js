@@ -13,7 +13,9 @@ $(function () {
 
         Promise.all([equipe, template]).then(d => {
             $.each(d[0], function (i, e) {
-                e.imagem = e.imagem[0].url;
+                if(typeof e.imagem !== null)
+                    e.imagem = e.imagem[0].url;
+
                 $("#equipe").append(Mustache.render(d[1].time, e));
             });
             $("#equipe").append(Mustache.render(d[1].time, voce));
