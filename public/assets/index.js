@@ -2041,9 +2041,7 @@ $(function() {
         } );
 
     }
-})
 
-$(function () {
     let equipe = dbLocal.exeRead("equipe");
     let portifolio = dbLocal.exeRead("portifolio");
     let template = dbLocal.exeRead("__template", 1);
