@@ -357,13 +357,13 @@ $clientes = ($read->getResult() ? $read->getResult() : []);
     </svg>
 </a>
 
-<link rel="stylesheet" type="text/css" href="<?=HOME . VENDOR ?>site-ag3/public/assets/elastic_grid.min.css" />
+<!--<link rel="stylesheet" type="text/css" href="--><?//=HOME . VENDOR ?><!--site-ag3/public/assets/elastic_grid.min.css" />-->
 
-<script src="<?=HOME . VENDOR ?>site-ag3/public/assets/modernizr.custom.js"></script>
-<script src="<?=HOME . VENDOR ?>site-ag3/public/assets/classie.js"></script>
-<script type="text/javascript" src="<?=HOME . VENDOR ?>site-ag3/public/assets/jquery.elastislide.js"></script>
-<script type="text/javascript" src="<?=HOME . VENDOR ?>site-ag3/public/assets/jquery.hoverdir.js"></script>
-<script type="text/javascript" src="<?=HOME . VENDOR ?>site-ag3/public/assets/elastic_grid.js"></script>
+<!--<script src="<?/*=HOME . VENDOR */?>site-ag3/public/assets/modernizr.custom.js"></script>
+<script src="<?/*=HOME . VENDOR */?>site-ag3/public/assets/classie.js"></script>
+<script type="text/javascript" src="<?/*=HOME . VENDOR */?>site-ag3/public/assets/jquery.elastislide.js"></script>
+<script type="text/javascript" src="<?/*=HOME . VENDOR */?>site-ag3/public/assets/jquery.hoverdir.js"></script>
+<script type="text/javascript" src="<?/*=HOME . VENDOR */?>site-ag3/public/assets/elastic_grid.js"></script>-->
 
 <!--<div id="myModal" class="modal">
     <div class="modal-content">
