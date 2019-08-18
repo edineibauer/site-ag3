@@ -1,5 +1,4 @@
 {
     "title": "{$sitename}",
-    "css": ["w3"],
-    "js": ["jquery.migrate"]
+    "css": ["w3"]
 }
