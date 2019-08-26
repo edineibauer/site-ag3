@@ -2140,8 +2140,8 @@ $(function() {
     });
 
     $(function () {
-        $("#header10-0").css("background-image", HOME + VENDOR + "site-ag3/public/assets/img/header." + webp("jpg"));
-        $("#content5-9").css("background-image", HOME + VENDOR + "site-ag3/public/assets/img/coffe." + webp("jpg"));
+        $("#header10-0").css("background-image", "url('" + HOME + VENDOR + "site-ag3/public/assets/img/header." + webp("jpg") + "')");
+        $("#content5-9").css("background-image", "url('" + HOME + VENDOR + "site-ag3/public/assets/img/coffe." + webp("jpg") + "')");
 
         if(getCookie("webp") === "false") {
             //Sem suporte a webp, change images
