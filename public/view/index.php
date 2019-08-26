@@ -14,7 +14,7 @@ $clientes = ($read->getResult() ? $read->getResult() : []);
 
 ?>
 
-<section class="header10 cid-raBgLdchSJ mbr-fullscreen mbr-parallax-background angle" id="header10-0" style="background-image: url('<?=HOME . VENDOR?>site-ag3/public/assets/img/header.webp')">
+<section class="header10 cid-raBgLdchSJ mbr-fullscreen mbr-parallax-background angle" id="header10-0">
     <div class="container" style="z-index: 3">
         <div class="media-container-column mbr-white col-lg-8 col-md-10 ml-auto">
             <h1 class="mbr-section-title align-right mbr-bold pb-3 mbr-fonts-style display-1">DESENVOLVIMENTO DE SISTEMAS E SITES</h1>
@@ -36,8 +36,8 @@ $clientes = ($read->getResult() ? $read->getResult() : []);
         <div class="media-container-row">
 
             <div class="p-3 col-12 col-lg-6 relative">
-                <img src="<?=HOME . VENDOR ?>site-ag3/public/assets/img/pwa-ballon.png" class="ballon" />
-                <img src="<?=HOME . VENDOR ?>site-ag3/public/assets/img/pwa-header.png" />
+                <img src="<?=HOME . VENDOR ?>site-ag3/public/assets/img/pwa-ballon.webp" class="ballon" />
+                <img src="<?=HOME . VENDOR ?>site-ag3/public/assets/img/pwa-header.webp" class="ballon-back" />
             </div>
 
             <div class="p-3 col-12 col-lg-6">
@@ -114,7 +114,7 @@ $clientes = ($read->getResult() ? $read->getResult() : []);
     </div>
 </section>
 
-<section class="mbr-section content5 cid-raBzwObT2o mbr-parallax-background" id="content5-9" style="background-image: url('<?=HOME . VENDOR?>site-ag3/public/assets/img/coffe.webp')">
+<section class="mbr-section content5 cid-raBzwObT2o mbr-parallax-background" id="content5-9">
     <div class="container">
         <div class="media-container-row">
             <div class="title col-12 col-md-8">

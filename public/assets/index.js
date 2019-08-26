@@ -2048,7 +2048,7 @@ $(function() {
     let voce = {
         'nome': 'Vaga em aberto',
         'atuacao': 'Front-end Developer',
-        'imagem': HOME + VENDOR + "site-ag3/public/assets/img/user.png",
+        'imagem': HOME + VENDOR + "site-ag3/public/assets/img/user." + webp("png"),
         'descricao': '',
     };
 
@@ -2068,7 +2068,7 @@ $(function() {
             $("img").each(function (i, img) {
                 let pat = new RegExp("\/uploads\/", "i");
                 if (pat.test($(img).attr("src")))
-                    $(img).attr("src", HOME + VENDOR + "site-ag3/public/assets/img/user.png");
+                    $(img).attr("src", HOME + VENDOR + "site-ag3/public/assets/img/user." + webp("png"));
             })
         }
     });
@@ -2089,8 +2089,8 @@ $(function() {
                     imagemName.push('');
                 });
             } else {
-                thumb.push(HOME + "assetsPublic/img/img.png");
-                imagem.push(HOME + "assetsPublic/img/img.png");
+                thumb.push(HOME + "assetsPublic/img/img." + webp("png"));
+                imagem.push(HOME + "assetsPublic/img/img." + webp("png"));
                 imagemName.push('');
             }
 
@@ -2138,6 +2138,15 @@ $(function() {
             });
         });
     });
+
+    $("#header10-0").css("background-image", HOME + VENDOR + "site-ag3/public/assets/img/header." + webp("jpg"));
+    $("#content5-9").css("background-image", HOME + VENDOR + "site-ag3/public/assets/img/coffe." + webp("jpg"));
+
+    if(getCookie("webp") === "false") {
+        //Sem suporte a webp, change images
+        $(".ballon").attr("src", HOME + VENDOR + "site-ag3/public/assets/img/pwa-ballon.png");
+        $(".ballon-back").attr("src", HOME + VENDOR + "site-ag3/public/assets/img/pwa-header.png");
+    }
 
     console.log("Olá DEV, queremos os melhores para nossa missão! Se você esta vendo isso, pode ser você! Envie um email para galera.org@gmail.com com um pouco do que você sabe fazer, e retornamos caso tenhamos interesse no seu perfil. Somos uma empresa aberta a possibilidades, e desenvolvedores (principalmente) sempre são bem vindos!");
 });
