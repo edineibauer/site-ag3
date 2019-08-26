@@ -1604,7 +1604,6 @@ $(function() {
                 $item.data( 'offsetTop', $item.offset().top );
                 if( saveheight ) {
                     $item.find('img').load(function() {
-                        console.log($item.outerHeight());
                         $item.data( 'height', $item.height());
                     }).each(function() {
                         if(this.complete) $(this).load();
@@ -2140,5 +2139,5 @@ $(function() {
         });
     });
 
-    console.log("Olá DEV, estamos contratando!");
+    console.log("Olá DEV, queremos os melhores para nossa missão! Se você esta vendo isso, pode ser você! Envie um email para galera.org@gmail.com com um pouco do que você sabe fazer, e retornamos caso tenhamos interesse no seu perfil. Somos uma empresa aberta a possibilidades, e desenvolvedores (principalmente) sempre são bem vindos!");
 });
