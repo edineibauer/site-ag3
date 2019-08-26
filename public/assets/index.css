@@ -13123,7 +13123,10 @@ body {
 section {
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-size: cover
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 section .mbr-background-video, section .mbr-background-video-preview {
