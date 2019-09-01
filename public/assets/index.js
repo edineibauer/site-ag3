@@ -2058,7 +2058,7 @@ $(function() {
     Promise.all([equipe, template]).then(d => {
         $.each(d[0], function (i, e) {
             if (typeof e.imagem !== null)
-                e.imagem = e.imagem[0].url;
+                e.imagem = e.imagem[0].urls.thumb;
 
             $("#equipe").append(Mustache.render(d[1].time, e));
         });
@@ -2084,7 +2084,7 @@ $(function() {
             let imagemName = [];
             if (typeof e.imagens !== null) {
                 $.each(e.imagens, function(i, img) {
-                    thumb.push(img.urls['300']);
+                    thumb.push(img.urls.thumb);
                     imagem.push(img.urls['medium']);
                     imagemName.push('');
                 });
